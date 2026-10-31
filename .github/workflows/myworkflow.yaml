@@ -13,4 +13,8 @@ jobs:
           whoami
           pwd
 
+      - name: Step2- Checkout the source code
+        uses: actions/checkout@v4
 
+      - name: Step3- Checking the transferred code
+        run: ls -al
