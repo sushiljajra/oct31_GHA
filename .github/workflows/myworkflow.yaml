@@ -9,9 +9,9 @@ jobs:
 
     steps:
       - name: Step1- 
-      run: |
-        whoami
-        pwd
+        run: |
+          whoami
+          pwd
 
       - name: Step2- 
 
