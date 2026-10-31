@@ -1,1 +1,7 @@
 name: My_WorkFlow_1
+
+on:
+  push:
+
+jobs:
+  myjob1:
