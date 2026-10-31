@@ -5,3 +5,13 @@ on:
 
 jobs:
   myjob1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step1- 
+      run: |
+        whoami
+        pwd
+
+      - name: Step2- 
+
