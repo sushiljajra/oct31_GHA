@@ -2,6 +2,7 @@ name: My_WorkFlow_1
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   myjob1:
